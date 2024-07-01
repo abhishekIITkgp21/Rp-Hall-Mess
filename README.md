@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# RP Hall Mess Signup
 
-## Getting Started
+Welcome to the RP Hall Mess Signup project! This is a web application built using Next.js that allows users to sign up for RP Hall Mess with their email, roll number, and password.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [RP Hall Mess Signup](#rp-hall-mess-signup)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Demo](#demo)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Folder Structure](#folder-structure)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- User registration with email, roll number, and password.
+- Server-side form handling with Next.js API routes.
+- Responsive design with CSS modules.
+- Clean and modern user interface.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Demo
 
-## Learn More
+You can view a live demo of the project [here](#).
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To get a local copy up and running, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **Clone the repository:**
 
-## Deploy on Vercel
+    ```sh
+    git clone https://github.com/abhishekIITkgp21/Rp-Hall-Mess.git
+    cd Rp-Hall-Mess
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Install dependencies:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    ```sh
+    npm install
+    ```
+
+3. **Start the development server:**
+
+    ```sh
+    npm run dev
+    ```
+
+4. Open your browser and navigate to `http://localhost:3000`.
+
+## Usage
+
+1. **Homepage:**
+   - The homepage welcomes users to RP Hall Mess and provides a link to the signup page.
+
+2. **Signup Page:**
+   - Users can register by providing their email, roll number, and password.
+   - Form data is sent to the server for processing.
+
+## Folder Structure
+
